@@ -16,7 +16,7 @@ Następnie należy:
 - Wewnątrz folderu projektu wejść w folder Windows
 - Wejść w folder soft-shadowing_vs_2022
 - Uruchomić solucję soft-shadowing_vs_2022.sln
-- Następnie uruchomić projekt (Ctrl + F5)
+- Uruchomić projekt (Ctrl + F5)
 
 ## Struktura Projektu
 Pliki nagłówkowe zostały umieszczone w folderze Include.
