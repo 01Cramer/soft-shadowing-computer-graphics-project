@@ -20,7 +20,9 @@ Następnie należy:
 
 ## Struktura Projektu
 Pliki nagłówkowe zostały umieszczone w folderze Include.
-Pliki cpp implementujące pliki nagłówkowe zostały umieszczone w folderze Common.
-Plik main znajduje się w folderze soft-shadowing.
-W folderze Content znajdują się potrzebne tekstury.
 
+Pliki cpp implementujące pliki nagłówkowe zostały umieszczone w folderze Common.
+
+Plik main znajduje się w folderze soft-shadowing.
+
+W folderze Content znajdują się potrzebne tekstury.
