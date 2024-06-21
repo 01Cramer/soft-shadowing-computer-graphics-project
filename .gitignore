@@ -1,10 +1,15 @@
+# Ignorowanie folderów i plików specyficznych dla Visual Studio
 .vs/
 *.vsix
 *.user
 *.suo
 *.userosscache
 *.sln.docstates
+
+# Pliki związane z indeksacją zawartości Visual Studio
 **/.vs/**/FileContentIndex/
+
+# Pliki binarne kompilacji
 [xX]64/
 [xX]86/
 [Oo]ut/
@@ -21,10 +26,11 @@
 *.cache
 *.ilk
 *.pdb
-*.obj
 *.pch
 *.res
 *.sbr
+
+# Pliki specyficzne dla projektów C++
 ipch/
 *.aps
 *.ncb
@@ -32,8 +38,12 @@ ipch/
 *.sdf
 *.cachefile
 *.vcxproj.user
+
+# Specyficzne pliki środowiska wykonywalnego
 *.exe
 *.dll
+
+# Pliki pośrednie i binarne projektu
 **/Debug/
 **/Release/
 **/[Bb]uild/

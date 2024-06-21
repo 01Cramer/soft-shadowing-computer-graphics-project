@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{03d3bf34-434a-42d3-b90c-0168e09b9db4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Common\3rdparty\stb_image.cpp" />
+    <ClCompile Include="..\..\..\soft-shadowing\main.cpp" />
+    <ClCompile Include="..\..\..\Common\basic_glfw_camera.cpp" />
+    <ClCompile Include="..\..\..\Common\basic_mesh.cpp" />
+    <ClCompile Include="..\..\..\Common\glfw.cpp" />
+    <ClCompile Include="..\..\..\Common\lighting.cpp" />
+    <ClCompile Include="..\..\..\Common\math_3d.cpp" />
+    <ClCompile Include="..\..\..\Common\shadow_map_fbo.cpp" />
+    <ClCompile Include="..\..\..\Common\shadow_mapping_technique.cpp" />
+    <ClCompile Include="..\..\..\Common\technique.cpp" />
+    <ClCompile Include="..\..\..\Common\texture.cpp" />
+    <ClCompile Include="..\..\..\Common\util.cpp" />
+    <ClCompile Include="..\..\..\Common\world_transform.cpp" />
+  </ItemGroup>
+</Project>
