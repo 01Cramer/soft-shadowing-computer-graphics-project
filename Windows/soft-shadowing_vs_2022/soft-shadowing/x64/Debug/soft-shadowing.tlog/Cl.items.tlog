@@ -1,0 +1,13 @@
+B:\GitHub\soft-shadowing-computer-graphics-project\Common\3rdparty\stb_image.cpp;B:\GitHub\soft-shadowing-computer-graphics-project\Windows\soft-shadowing_vs_2022\soft-shadowing\x64\Debug\stb_image.obj
+B:\GitHub\soft-shadowing-computer-graphics-project\Common\basic_glfw_camera.cpp;B:\GitHub\soft-shadowing-computer-graphics-project\Windows\soft-shadowing_vs_2022\soft-shadowing\x64\Debug\basic_glfw_camera.obj
+B:\GitHub\soft-shadowing-computer-graphics-project\Common\basic_mesh.cpp;B:\GitHub\soft-shadowing-computer-graphics-project\Windows\soft-shadowing_vs_2022\soft-shadowing\x64\Debug\basic_mesh.obj
+B:\GitHub\soft-shadowing-computer-graphics-project\Common\glfw.cpp;B:\GitHub\soft-shadowing-computer-graphics-project\Windows\soft-shadowing_vs_2022\soft-shadowing\x64\Debug\glfw.obj
+B:\GitHub\soft-shadowing-computer-graphics-project\Common\lighting.cpp;B:\GitHub\soft-shadowing-computer-graphics-project\Windows\soft-shadowing_vs_2022\soft-shadowing\x64\Debug\lighting.obj
+B:\GitHub\soft-shadowing-computer-graphics-project\Common\math_3d.cpp;B:\GitHub\soft-shadowing-computer-graphics-project\Windows\soft-shadowing_vs_2022\soft-shadowing\x64\Debug\math_3d.obj
+B:\GitHub\soft-shadowing-computer-graphics-project\Common\shadow_mapping_technique.cpp;B:\GitHub\soft-shadowing-computer-graphics-project\Windows\soft-shadowing_vs_2022\soft-shadowing\x64\Debug\shadow_mapping_technique.obj
+B:\GitHub\soft-shadowing-computer-graphics-project\Common\shadow_map_fbo.cpp;B:\GitHub\soft-shadowing-computer-graphics-project\Windows\soft-shadowing_vs_2022\soft-shadowing\x64\Debug\shadow_map_fbo.obj
+B:\GitHub\soft-shadowing-computer-graphics-project\Common\technique.cpp;B:\GitHub\soft-shadowing-computer-graphics-project\Windows\soft-shadowing_vs_2022\soft-shadowing\x64\Debug\technique.obj
+B:\GitHub\soft-shadowing-computer-graphics-project\Common\texture.cpp;B:\GitHub\soft-shadowing-computer-graphics-project\Windows\soft-shadowing_vs_2022\soft-shadowing\x64\Debug\texture.obj
+B:\GitHub\soft-shadowing-computer-graphics-project\Common\util.cpp;B:\GitHub\soft-shadowing-computer-graphics-project\Windows\soft-shadowing_vs_2022\soft-shadowing\x64\Debug\util.obj
+B:\GitHub\soft-shadowing-computer-graphics-project\Common\world_transform.cpp;B:\GitHub\soft-shadowing-computer-graphics-project\Windows\soft-shadowing_vs_2022\soft-shadowing\x64\Debug\world_transform.obj
+B:\GitHub\soft-shadowing-computer-graphics-project\soft-shadowing\main.cpp;B:\GitHub\soft-shadowing-computer-graphics-project\Windows\soft-shadowing_vs_2022\soft-shadowing\x64\Debug\main.obj
