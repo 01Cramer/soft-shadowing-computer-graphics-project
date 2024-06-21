@@ -8,4 +8,19 @@ Dodatkowo, zaimplementowany został podstawowy ruch kamerą za pomocą klawiszy 
 Wyrenderowane obiekty w postaci domku w stylu RPG oraz drzew ukazują wszechstronne cienie, które znacząco różnią się strukturą.
 
 ## Uruchamianie projektu
+Aby uruchomić projekt wymagane jest posiadanie Visual Studio oraz system operacyjny Windows.
+
+Następnie należy:
+- Sklonować repozytorium
+- Wejść w folder projektu
+- Wewnątrz folderu projektu wejść w folder Windows
+- Wejść w folder soft-shadowing_vs_2022
+- Uruchomić solucję soft-shadowing_vs_2022.sln
+- Następnie uruchomić projekt (Ctrl + F5)
+
+## Struktura Projektu
+Pliki nagłówkowe zostały umieszczone w folderze Include.
+Pliki cpp implementujące pliki nagłówkowe zostały umieszczone w folderze Common.
+Plik main znajduje się w folderze soft-shadowing.
+W folderze Content znajdują się potrzebne tekstury.
 
