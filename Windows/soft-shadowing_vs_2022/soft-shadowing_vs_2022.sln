@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32319.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Include", "Include", "{1F4F3822-5B5B-46A8-B8E6-253BB09CFB10}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Include\basic_glfw_camera.h = ..\..\Include\basic_glfw_camera.h
+		..\..\Include\basic_mesh.h = ..\..\Include\basic_mesh.h
+		..\..\Include\common.h = ..\..\Include\common.h
+		..\..\Include\engine_common.h = ..\..\Include\engine_common.h
+		..\..\Include\glfw.h = ..\..\Include\glfw.h
+		..\..\Include\lighting.h = ..\..\Include\lighting.h
+		..\..\Include\lights_common.h = ..\..\Include\lights_common.h
+		..\..\Include\material.h = ..\..\Include\material.h
+		..\..\Include\math_3d.h = ..\..\Include\math_3d.h
+		..\..\Include\shadow_mapping_technique.h = ..\..\Include\shadow_mapping_technique.h
+		..\..\Include\shadow_map_fbo.h = ..\..\Include\shadow_map_fbo.h
+		..\..\Include\technique.h = ..\..\Include\technique.h
+		..\..\Include\texture.h = ..\..\Include\texture.h
+		..\..\Include\util.h = ..\..\Include\util.h
+		..\..\Include\world_transform.h = ..\..\Include\world_transform.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3rdparty", "3rdparty", "{41A0EE6E-7F4F-4650-B76B-3024308136F3}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Include\3rdparty\stb_image.h = ..\..\Include\3rdparty\stb_image.h
+		..\..\Include\3rdparty\stb_image_write.h = ..\..\Include\3rdparty\stb_image_write.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shaders", "Shaders", "{2CAB346B-6660-46F9-91AB-2CC238300A31}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Common\Shaders\lighting_new.fs = ..\..\Common\Shaders\lighting_new.fs
+		..\..\Common\Shaders\lighting_new.vs = ..\..\Common\Shaders\lighting_new.vs
+		..\..\Common\Shaders\shadow_map.vs = ..\..\Common\Shaders\shadow_map.vs
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "soft-shadowing", "soft-shadowing\soft-shadowing.vcxproj", "{0D237F28-EA59-4308-9330-50650B015A07}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{F6553386-4E78-450B-A98D-D17DE590F6AB}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\Common\basic_glfw_camera.cpp = ..\..\Common\basic_glfw_camera.cpp
+		..\..\Common\basic_mesh.cpp = ..\..\Common\basic_mesh.cpp
+		..\..\Common\glfw.cpp = ..\..\Common\glfw.cpp
+		..\..\Common\lighting.cpp = ..\..\Common\lighting.cpp
+		..\..\Common\math_3d.cpp = ..\..\Common\math_3d.cpp
+		..\..\Common\shadow_mapping_technique.cpp = ..\..\Common\shadow_mapping_technique.cpp
+		..\..\Common\shadow_map_fbo.cpp = ..\..\Common\shadow_map_fbo.cpp
+		..\..\Common\technique.cpp = ..\..\Common\technique.cpp
+		..\..\Common\texture.cpp = ..\..\Common\texture.cpp
+		..\..\Common\util.cpp = ..\..\Common\util.cpp
+		..\..\Common\world_transform.cpp = ..\..\Common\world_transform.cpp
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Soft-shadowing", "Soft-shadowing", "{AA79194F-A6EF-4133-A624-C4CE94275552}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OpenGL", "OpenGL", "{598FEE6D-9610-46D8-A821-39733CDAB3DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0D237F28-EA59-4308-9330-50650B015A07}.Debug|x64.ActiveCfg = Debug|x64
+		{0D237F28-EA59-4308-9330-50650B015A07}.Debug|x64.Build.0 = Debug|x64
+		{0D237F28-EA59-4308-9330-50650B015A07}.Debug|x86.ActiveCfg = Debug|Win32
+		{0D237F28-EA59-4308-9330-50650B015A07}.Debug|x86.Build.0 = Debug|Win32
+		{0D237F28-EA59-4308-9330-50650B015A07}.Release|x64.ActiveCfg = Release|x64
+		{0D237F28-EA59-4308-9330-50650B015A07}.Release|x64.Build.0 = Release|x64
+		{0D237F28-EA59-4308-9330-50650B015A07}.Release|x86.ActiveCfg = Release|Win32
+		{0D237F28-EA59-4308-9330-50650B015A07}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{1F4F3822-5B5B-46A8-B8E6-253BB09CFB10} = {598FEE6D-9610-46D8-A821-39733CDAB3DD}
+		{41A0EE6E-7F4F-4650-B76B-3024308136F3} = {1F4F3822-5B5B-46A8-B8E6-253BB09CFB10}
+		{2CAB346B-6660-46F9-91AB-2CC238300A31} = {598FEE6D-9610-46D8-A821-39733CDAB3DD}
+		{0D237F28-EA59-4308-9330-50650B015A07} = {AA79194F-A6EF-4133-A624-C4CE94275552}
+		{F6553386-4E78-450B-A98D-D17DE590F6AB} = {598FEE6D-9610-46D8-A821-39733CDAB3DD}
+		{AA79194F-A6EF-4133-A624-C4CE94275552} = {598FEE6D-9610-46D8-A821-39733CDAB3DD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {690F8FBC-BD4E-482C-BBD9-5CB7D2D801AC}
+	EndGlobalSection
+EndGlobal
