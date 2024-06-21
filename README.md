@@ -18,6 +18,13 @@ Następnie należy:
 - Uruchomić solucję soft-shadowing_vs_2022.sln
 - Uruchomić projekt (Ctrl + F5)
 
+## Przykładowy Efekt - Cień komina budynku
+Przed wygładzaniem:
+![](https://github.com/01Cramer/soft-shadowing-computer-graphics-project/blob/main/before_softing.png)
+
+Po wygładzaniu:
+![](https://github.com/01Cramer/soft-shadowing-computer-graphics-project/blob/main/after_softing.png)
+
 ## Struktura Projektu
 Pliki nagłówkowe zostały umieszczone w folderze Include.
 
