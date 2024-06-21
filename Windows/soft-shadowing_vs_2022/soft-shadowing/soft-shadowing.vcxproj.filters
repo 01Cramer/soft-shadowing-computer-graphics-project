@@ -7,7 +7,6 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\Common\3rdparty\stb_image.cpp" />
-    <ClCompile Include="..\..\..\soft-shadowing\main.cpp" />
     <ClCompile Include="..\..\..\Common\basic_glfw_camera.cpp" />
     <ClCompile Include="..\..\..\Common\basic_mesh.cpp" />
     <ClCompile Include="..\..\..\Common\glfw.cpp" />
@@ -19,5 +18,6 @@
     <ClCompile Include="..\..\..\Common\texture.cpp" />
     <ClCompile Include="..\..\..\Common\util.cpp" />
     <ClCompile Include="..\..\..\Common\world_transform.cpp" />
+    <ClCompile Include="..\..\..\soft-shadowing\main.cpp" />
   </ItemGroup>
 </Project>
