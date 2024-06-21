@@ -41,7 +41,6 @@ ipch/
 
 # Specyficzne pliki środowiska wykonywalnego
 *.exe
-*.dll
 
 # Pliki pośrednie i binarne projektu
 **/Debug/
