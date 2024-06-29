@@ -1,0 +1,21 @@
+﻿  stb_image.cpp
+  basic_glfw_camera.cpp
+  basic_mesh.cpp
+  glfw.cpp
+  lighting.cpp
+  math_3d.cpp
+  shadow_mapping_technique.cpp
+  shadow_map_fbo.cpp
+  technique.cpp
+  texture.cpp
+  util.cpp
+  world_transform.cpp
+  main.cpp
+C:\Users\adria\Documents\GitHub\soft-shadowing-computer-graphics-project\soft-shadowing\main.cpp(361,20): warning C4305: "argument": obcięcie z "double" do "float"
+C:\Users\adria\Documents\GitHub\soft-shadowing-computer-graphics-project\soft-shadowing\main.cpp(369,21): warning C4305: "argument": obcięcie z "double" do "float"
+C:\Users\adria\Documents\GitHub\soft-shadowing-computer-graphics-project\soft-shadowing\main.cpp(377,21): warning C4305: "argument": obcięcie z "double" do "float"
+  Trwa generowanie kodu
+  Previous IPDB not found, fall back to full compilation.
+  All 792 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Zakończono generowanie kodu
+  soft-shadowing.vcxproj -> C:\Users\adria\Documents\GitHub\soft-shadowing-computer-graphics-project\Windows\soft-shadowing_vs_2022\x64\Release\soft-shadowing.exe
