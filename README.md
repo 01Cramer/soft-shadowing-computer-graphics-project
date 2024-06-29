@@ -18,6 +18,9 @@ Następnie należy:
 - Uruchomić solucję soft-shadowing_vs_2022.sln
 - Uruchomić projekt (Ctrl + F5)
 
+Plik wykonywalny (soft-shadowing.exe) znajduje się w następującym miejscu:
+soft-shadowing-computer-graphics-project\Windows\softshadowing_vs_2022\x64\Release
+
 ## Przykładowy Efekt - Cień komina budynku
 Przed wygładzaniem:
 ![](https://github.com/01Cramer/soft-shadowing-computer-graphics-project/blob/main/before_softing.png)
